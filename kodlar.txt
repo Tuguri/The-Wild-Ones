@@ -1,0 +1,97 @@
+
+HTML
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinozor Dünyası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🦖 Dinozor Dünyası</h1>
+        <p>Bilimsel araştırmalar ve eğlenceli bilgiler</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#hakkinda">Hakkında</a></li>
+            <li><a href="#turler">Dinozor Türleri</a></li>
+            <li><a href="#arastirma">Araştırmalar</a></li>
+            <li><a href="#test">Test: Hangi Dinozorsun?</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hakkinda">
+            <h2>Dinozorlar Hakkında</h2>
+            <p>Dinozorlar milyonlarca yıl boyunca dünyamıza hükmetti! İşte onların şaşırtıcı hikayesi.</p>
+        </section>
+        <section id="turler">
+            <h2>En Popüler Dinozor Türleri</h2>
+            <ul>
+                <li><strong>Tyrannosaurus Rex</strong> - Güçlü çenesiyle korkutucu bir avcı</li>
+                <li><strong>Velociraptor</strong> - Küçük ama zeki bir avcı</li>
+                <li><strong>Triceratops</strong> - Üç boynuzuyla savunmacı bir bitki yiyici</li>
+            </ul>
+        </section>
+        <section id="arastirma">
+            <h2>Son Dinozor Araştırmaları</h2>
+            <p>Bilim insanları, fosillerden yeni bilgiler elde etmeye devam ediyor. En güncel bulgular için bizi takip edin!</p>
+        </section>
+        <section id="test">
+            <h2>Test: Hangi Dinozorsun?</h2>
+            <p>Yakında burada eğlenceli bir kişilik testi olacak!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dinozor Dünyası | Bilim ve Eğlence</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+CSS
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e3d7;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4f7942;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #4f7942;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #4f7942;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
